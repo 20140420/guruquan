@@ -6,7 +6,6 @@ body {
 	background-color: #CCCCCC;
 	margin: 0;
 	padding: 0;
-	color: #000;
 }
 /* ~~ 元素/标签选择器 ~~ */
 ul, ol, dl { /* 由于浏览器之间的差异，最佳做法是在列表中将填充和边距都设置为零。为了保持一致，您可以在此处指定需要的数值，也可以在列表所包含的列表项（LI、DT 和 DD）中指定需要的数值。请注意，除非编写一个更为具体的选择器，否则您在此处进行的设置将会层叠到 .nav 列表。 */
@@ -963,7 +962,7 @@ table td,th{
 	border: 0px solid #37A0D9;
 	height: 240px;
 	width: 260px;
-	background-color: #DBDBDB;
+	background-color: #CCCCCC;
 	overflow-y: scroll;
 	position: absolute;
 }
@@ -1183,4 +1182,7 @@ table td,th{
 
 .alpha {
 	opacity: .4;		
+}
+.chat .chat-expression img {
+
 }
