@@ -1,5 +1,19 @@
+
 <%@ page contentType="text/html; charset=utf-8" language="java" import="java.sql.*" errorPage="" %>
-<%@ include file="mbody.jsp"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>股如泉网上交易系统</title>
+<link href="../css/manage.css" rel="stylesheet" type="text/css" />
+<script src="../js/jquery.js"></script>
+<script src="../js/manage.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="sidebar1">
+    <%@ include file="../control/front/recognizeid.jsp"%> 
+  <!-- end .sidebar1 --></div>
 <div class="content">
     <div class="uinquiryaccount">
       <table>
@@ -48,5 +62,12 @@
       </table>
     </div>
 <!-- end .content --></div>
-<%@ include file="mfooter.jsp"%>
-  
+  <div class="footer">
+      <ul>
+        <li></li>
+        <li></li>
+      </ul>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html> 
