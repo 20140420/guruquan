@@ -69,6 +69,8 @@ a:hover, a:active, a:focus { /* 此组选择器将为键盘导航者提供与鼠
 	padding: 10px 0;/*调节块内容与块边框的距离*/
 	width: 780px;
 	float: left;
+	background-color: #FFF;
+	height: 100%;
 }
 
 /* ~~ 此分组的选择器为 .content 区域中的列表提供了空间 ~~ */
@@ -418,16 +420,16 @@ form table .col5 input{/*长文本*/
 	padding-bottom: 0px;
 }
 /*uinquiryaccount.jsp*/
-.container .content .uinquiryaccount {
+.content .uinquiryaccount {
 	height: auto;
 }
-.container .content .uinquiryaccount  table {
+.content .uinquiryaccount  table {
 	margin-top: 0px;
 	margin-right: auto;
 	margin-bottom: 0px;
 	margin-left: auto;
 }
-.container .content .uinquiryaccount  table td {
+.content .uinquiryaccount  table td {
 	height: 30px;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
